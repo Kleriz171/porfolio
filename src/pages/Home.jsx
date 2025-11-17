@@ -1,9 +1,10 @@
-import { ThemeToggle } from "../components/ThemeToggle"
-import { StarBackround } from "../components/StarBackround"
-import { Navbar } from "../components/Navbar"
-import { HeroSection } from "../components/HeroSection"
-import { AboutSection } from "../components/AboutSection"
-import { SkillsSection } from "../components/SkillSection"
+import { ThemeToggle } from "../components/ThemeToggle";
+import { StarBackround } from "../components/StarBackround";
+import { Navbar } from "../components/Navbar";
+import { HeroSection } from "../components/HeroSection";
+import { AboutSection } from "../components/AboutSection";
+import { SkillsSection } from "../components/SkillSection";
+import { ProjectsSection } from "../components/ProjectSection";
 
 export const Home = () =>{
     return(
@@ -14,6 +15,7 @@ export const Home = () =>{
             <HeroSection/>
             <AboutSection/>
             <SkillsSection/>
+            <ProjectsSection/>
         </div>
     )
 }
