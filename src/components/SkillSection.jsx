@@ -16,7 +16,7 @@ const skills = [
   { name: "Lucide React", level: 100, category: "frontend" },
   { name: "Fetch API / Axios", level: 90, category: "frontend" },
   { name: "React Hook Form", level: 80, category: "frontend" },
-  { name: "React Router", level: 85, category: "frontend" },
+  { name: "React Router", level: 100, category: "frontend" },
 
   // -----------------------
   // backend
@@ -25,7 +25,7 @@ const skills = [
   { name: "Express", level: 80, category: "backend" },
   { name: "MongoDB", level: 95, category: "backend" },
   { name: "REST API Development", level: 90, category: "backend" },
-  { name: "Postman", level: 90, category: "backend" },
+  { name: "Postman", level: 95, category: "backend" },
 
   // -----------------------
   // tools
