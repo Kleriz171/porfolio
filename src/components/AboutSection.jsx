@@ -12,12 +12,15 @@ export const AboutSection = () =>{
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
+                    <h3 className="text-2xl font-semibold">Junior Full-Stack Developer</h3>
                     <p className="text-muted-foreground">
-                        Dedicated to building real-world projects and improving my full-stack skills.
+                        I run Webris, a small freelance web studio, where I've shipped production sites and apps
+                        for real clients — from bilingual restaurant sites to a car-rental platform with a
+                        concurrency-safe Postgres booking system and an owner admin panel.
                     </p>
                     <p className="text-muted-foreground">
-                        Actively seeking opportunities to grow as a developer.
+                        Outside client work I build personal full-stack projects (MERN, Socket.io, WebRTC) and
+                        compete in hackathons — currently looking for my first junior developer role.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center">
                         <a href="#contact" className="cosmic-button">

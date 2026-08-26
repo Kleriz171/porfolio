@@ -11,20 +11,25 @@ const skills = [
   { name: "TailwindCSS", level: 80, category: "frontend" },
   { name: "JavaScript", level: 95, category: "frontend" },
   { name: "React", level: 85, category: "frontend" },
+  { name: "Next.js", level: 80, category: "frontend" },
   { name: "Responsive Design", level: 80, category: "frontend" },
   { name: "UI/UX Basics", level: 90, category: "frontend" },
   { name: "Lucide React", level: 100, category: "frontend" },
   { name: "Fetch API / Axios", level: 90, category: "frontend" },
   { name: "React Hook Form", level: 80, category: "frontend" },
   { name: "React Router", level: 100, category: "frontend" },
+  { name: "i18n (next-intl)", level: 80, category: "frontend" },
 
   // -----------------------
   // backend
   // -----------------------
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express", level: 80, category: "backend" },
-  { name: "MongoDB", level: 95, category: "backend" },
+  { name: "PostgreSQL", level: 80, category: "backend" },
+  { name: "Drizzle ORM", level: 75, category: "backend" },
+  { name: "MongoDB", level: 90, category: "backend" },
   { name: "REST API Development", level: 90, category: "backend" },
+  { name: "Zod / Validation", level: 80, category: "backend" },
   { name: "Postman", level: 95, category: "backend" },
 
   // -----------------------
@@ -36,6 +41,7 @@ const skills = [
   { name: "npm / Node Basics", level: 95, category: "tools" },
   { name: "Chrome DevTools", level: 95, category: "tools" },
   { name: "ESLint / Prettier", level: 90, category: "tools" },
+  { name: "Vitest", level: 75, category: "tools" },
   { name: "GitHub Pages / Vercel Deployment", level: 85, category: "tools" },
   { name: "JSON / REST Standards", level: 95, category: "tools" }
 ];

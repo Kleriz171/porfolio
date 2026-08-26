@@ -17,9 +17,9 @@ export const HeroSection = ()=>{
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Biba</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I’m a web developer who loves building clean, simple, and good-looking websites.
-                    I enjoy turning ideas into real pages and making sure everything feels smooth and easy to use.
-                    I’m always learning and improving so every project I make is better than the last.
+                    I'm a junior full-stack developer building production sites and apps for real clients —
+                    from booking systems with concurrency-safe databases to fast, polished frontends.
+                    I care about shipping things that actually work, not just look good in a demo.
                 </p>
                 <div className="opacity-0 animate-fade-in-delay-4 pt-4s">
                     <a href="#projects" className="cosmic-button">
