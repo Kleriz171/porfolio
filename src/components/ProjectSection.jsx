@@ -3,6 +3,24 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
+        title: "Triada Estetic Center",
+        description: "Bilingual showcase site for a Tirana beauty salon with a 12k+ Instagram following, built to turn that audience into WhatsApp bookings. Editorial-luxe design across hair, makeup, nails and esthetics pages, statically rendered with full technical SEO — live on its own domain.",
+        image: "/projects/triada.jpg",
+        tags: ["Next.js", "TypeScript", "next-intl", "Tailwind", "SEO", "Vercel"],
+        githubURL: "https://github.com/Kleriz171/triada-saloon-web",
+        demoURL: "https://triadaestetic.com"
+    },
+    {
+        id: 2,
+        title: "Webris — Agency Site",
+        description: "The site behind the client work: a dark, motion-led Albanian-language site for my own web studio, covering services, process, pricing and a live project showcase. Next.js 16 monorepo with a shared UI package, Framer Motion transitions and Lenis smooth scroll.",
+        image: "/projects/webris.jpg",
+        tags: ["Next.js 16", "TypeScript", "Framer Motion", "Lenis", "Tailwind", "Monorepo"],
+        githubURL: "https://github.com/Kleriz171",
+        demoURL: "https://webris-web.vercel.app"
+    },
+    {
+        id: 3,
         title: "V.E Rental Car",
         description: "Bilingual car-rental platform for a Tirana operator with a concurrency-safe booking system — a Postgres exclusion constraint guarantees no double-booking even under simultaneous requests. Includes a full owner admin panel: fleet CRUD with photo uploads, a booking queue, and a drag-to-blackout calendar.",
         image: "/projects/ve-rental.jpg",
@@ -11,7 +29,7 @@ const projects = [
         demoURL: "https://ve-rental.com"
     },
     {
-        id: 2,
+        id: 4,
         title: "Haxhiaj's House",
         description: "Italian-Albanian grill restaurant site with a cinematic dark design and direct WhatsApp / Wolt delivery integration. Real menu sourced from the client's own listing, dish photography upscaled from low-resolution phone shots to presentable quality.",
         image: "/projects/haxhiaj-house.jpg",
@@ -20,7 +38,7 @@ const projects = [
         demoURL: "https://haxhiajs-house-web.vercel.app"
     },
     {
-        id: 3,
+        id: 5,
         title: "Boka Traditional Restaurant",
         description: "Bilingual restaurant site built end-to-end in two days — full 98-item menu transcribed from a printed poster, a low-res logo rebuilt into a clean emblem, and a \"candlelit supper-house\" visual redesign with Google-reviews social proof.",
         image: "/projects/boka.jpg",
@@ -29,7 +47,7 @@ const projects = [
         demoURL: "#"
     },
     {
-        id: 4,
+        id: 6,
         title: "BarberBook",
         description: "Bilingual barber-shop booking app with a real Postgres backend and a password-gated owner dashboard. Built with a partial unique index to prevent double-booked slots, plus a fully offline local dev mode with no cloud dependency.",
         image: "/projects/barberbook.jpg",
@@ -38,7 +56,7 @@ const projects = [
         demoURL: "https://barberbook-rho.vercel.app"
     },
     {
-        id: 5,
+        id: 7,
         title: "Vitalis — Emergency Coordination Platform",
         description: "Real-time platform coordinating medical emergencies, blood and medicine logistics, and teleconsultations. A TypeScript monorepo with a desktop operator portal, a mobile PWA, and an Expo React Native app sharing one Socket.io + MongoDB API.",
         image: "/projects/vitalis.jpg",
@@ -47,7 +65,7 @@ const projects = [
         demoURL: "#"
     },
     {
-        id: 6,
+        id: 8,
         title: "Workout Buddy",
         description: "A full-stack fitness tracking and workout planning web application built using the MERN stack (MongoDB, Express, React, Node.js). Users create an account, log in, and manage personalized workout routines through a clean, responsive interface.",
         image: "/projects/workout-buddy.jpg",
